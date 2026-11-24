@@ -1,0 +1,45 @@
+{
+  "jids": [
+    "201001629354@s.whatsapp.net",
+    "201221488286@s.whatsapp.net",
+    "201091397499@s.whatsapp.net",
+    "201129600864@s.whatsapp.net",
+    "201043427495@s.whatsapp.net",
+    "201043503963@s.whatsapp.net",
+    "201555444258@s.whatsapp.net",
+    "38649331601@s.whatsapp.net",
+    "201515933492@s.whatsapp.net"
+  ],
+  "lids": [
+    "270265816760415@lid",
+    "28811328532692@lid",
+    "130279796654205@lid",
+    "171477273977041@lid",
+    "74149103927479@lid",
+    "215758470680730@lid",
+    null,
+    null,
+    null,
+    null,
+    "250852245778492@lid",
+    null,
+    "63020860457074@lid",
+    null,
+    null,
+    null,
+    "74149103927479@lid",
+    null,
+    "236636323467478@lid",
+    null
+  ],
+  "twice": {
+    "130279796654205@lid": "201001629354@s.whatsapp.net",
+    "14423484306@s.whatsapp.net": "270265816760415@lid",
+    "819011025948@s.whatsapp.net": "49976960884963@lid",
+    "171477273977041@lid": "212675892049@s.whatsapp.net",
+    "212675892049@s.whatsapp.net": "171477273977041@lid",
+    "215758470680730@lid": "972568166775@s.whatsapp.net",
+    "972568166775@s.whatsapp.net": "215758470680730@lid",
+    "undefined": "201515933492@s.whatsapp.net"
+  }
+}
