@@ -1,0 +1,66 @@
+{
+  "201091397499@s.whatsapp.net": {
+    "id": "201091397499@s.whatsapp.net",
+    "identities": {
+      "pn": "201091397499@s.whatsapp.net",
+      "lid": "201670894080119@lid"
+    },
+    "name": "اَدهَــم",
+    "createdAt": 1795460252765,
+    "lastActive": 1795517359479,
+    "level": 6,
+    "rank": "E",
+    "xp": 100,
+    "xpRequired": 100,
+    "class": "mage",
+    "talent": {
+      "id": "quick_reflex",
+      "name": "رد الفعل السريع",
+      "rarity": "Common",
+      "description": "زيادة الرشاقة الأساسية."
+    },
+    "hp": 200,
+    "maxHp": 360,
+    "mp": 240,
+    "maxMp": 737,
+    "gold": 500,
+    "gems": 6,
+    "skillPoints": 8,
+    "statPoints": 5,
+    "stats": {
+      "STR": 6,
+      "AGI": 5,
+      "INT": 6,
+      "VIT": 8,
+      "LUK": 5
+    },
+    "equipment": {
+      "weapon": null,
+      "helmet": null,
+      "armor": null,
+      "gloves": null,
+      "boots": null,
+      "ring": null,
+      "necklace": null
+    },
+    "inventory": [],
+    "skills": [
+      "mana_control",
+      "mana_burst"
+    ],
+    "shadows": [],
+    "achievements": [],
+    "classSelectedAt": 1795462761763,
+    "classHistory": [
+      {
+        "classId": "mage",
+        "selectedAt": 1795462761763
+      }
+    ],
+    "skillLevels": {
+      "mana_control": 1,
+      "mana_burst": 1
+    },
+    "equippedSkills": []
+  }
+}
