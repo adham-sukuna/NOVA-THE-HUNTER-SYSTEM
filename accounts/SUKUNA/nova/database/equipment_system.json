@@ -1,0 +1,238 @@
+{
+    "metadata": {
+        "version": 1,
+        "maxEnhancement": 15,
+        "rarityOrder": [
+            "Common",
+            "Uncommon",
+            "Rare",
+            "Epic",
+            "Legendary",
+            "Mythic"
+        ]
+    },
+
+    "enhancement": {
+        "baseBonusPerLevel": 0.05,
+        "milestones": {
+            "5": 0.10,
+            "10": 0.20,
+            "15": 0.35
+        }
+    },
+
+    "rarities": {
+        "Common": {
+            "maxAffixes": 1,
+            "specialEffectChance": 0,
+            "affixPower": 1
+        },
+
+        "Uncommon": {
+            "maxAffixes": 2,
+            "specialEffectChance": 5,
+            "affixPower": 1.2
+        },
+
+        "Rare": {
+            "maxAffixes": 3,
+            "specialEffectChance": 12,
+            "affixPower": 1.5
+        },
+
+        "Epic": {
+            "maxAffixes": 3,
+            "specialEffectChance": 25,
+            "affixPower": 2
+        },
+
+        "Legendary": {
+            "maxAffixes": 4,
+            "specialEffectChance": 45,
+            "affixPower": 2.7
+        },
+
+        "Mythic": {
+            "maxAffixes": 5,
+            "specialEffectChance": 70,
+            "affixPower": 3.5
+        }
+    },
+
+    "affixes": [
+        {
+            "id": "strength",
+            "name": "Strength",
+            "nameAr": "القوة",
+            "type": "stat",
+            "stat": "STR",
+            "min": 1,
+            "max": 3
+        },
+        {
+            "id": "agility",
+            "name": "Agility",
+            "nameAr": "الرشاقة",
+            "type": "stat",
+            "stat": "AGI",
+            "min": 1,
+            "max": 3
+        },
+        {
+            "id": "intelligence",
+            "name": "Intelligence",
+            "nameAr": "الذكاء",
+            "type": "stat",
+            "stat": "INT",
+            "min": 1,
+            "max": 3
+        },
+        {
+            "id": "vitality",
+            "name": "Vitality",
+            "nameAr": "الحيوية",
+            "type": "stat",
+            "stat": "VIT",
+            "min": 1,
+            "max": 3
+        },
+        {
+            "id": "luck",
+            "name": "Luck",
+            "nameAr": "الحظ",
+            "type": "stat",
+            "stat": "LUK",
+            "min": 1,
+            "max": 3
+        },
+        {
+            "id": "physical_damage",
+            "name": "Physical Damage",
+            "nameAr": "الضرر الجسدي",
+            "type": "percentage",
+            "effect": "physicalDamagePercent",
+            "min": 2,
+            "max": 5
+        },
+        {
+            "id": "magic_damage",
+            "name": "Magic Damage",
+            "nameAr": "الضرر السحري",
+            "type": "percentage",
+            "effect": "magicDamagePercent",
+            "min": 2,
+            "max": 5
+        },
+        {
+            "id": "defense",
+            "name": "Defense",
+            "nameAr": "الدفاع",
+            "type": "percentage",
+            "effect": "defensePercent",
+            "min": 2,
+            "max": 5
+        },
+        {
+            "id": "critical_rate",
+            "name": "Critical Rate",
+            "nameAr": "فرصة الضربة الحرجة",
+            "type": "percentage",
+            "effect": "criticalRate",
+            "min": 1,
+            "max": 4
+        },
+        {
+            "id": "critical_damage",
+            "name": "Critical Damage",
+            "nameAr": "ضرر الضربة الحرجة",
+            "type": "percentage",
+            "effect": "criticalDamage",
+            "min": 3,
+            "max": 8
+        },
+        {
+            "id": "speed",
+            "name": "Speed",
+            "nameAr": "السرعة",
+            "type": "percentage",
+            "effect": "speedPercent",
+            "min": 2,
+            "max": 5
+        },
+        {
+            "id": "max_hp",
+            "name": "Maximum HP",
+            "nameAr": "الصحة القصوى",
+            "type": "percentage",
+            "effect": "hpPercent",
+            "min": 2,
+            "max": 6
+        },
+        {
+            "id": "max_mp",
+            "name": "Maximum MP",
+            "nameAr": "المانا القصوى",
+            "type": "percentage",
+            "effect": "mpPercent",
+            "min": 2,
+            "max": 6
+        }
+    ],
+
+    "specialEffects": [
+        {
+            "id": "vampirism",
+            "name": "Vampirism",
+            "nameAr": "امتصاص الحياة",
+            "description": "استعادة جزء من الضرر المسبب كصحة.",
+            "type": "combat",
+            "value": 3,
+            "unit": "percent"
+        },
+        {
+            "id": "critical_boost",
+            "name": "Critical Boost",
+            "nameAr": "تعزيز الضربات الحرجة",
+            "description": "زيادة ضرر الضربات الحرجة.",
+            "type": "combat",
+            "value": 10,
+            "unit": "percent"
+        },
+        {
+            "id": "mana_regeneration",
+            "name": "Mana Regeneration",
+            "nameAr": "استعادة المانا",
+            "description": "استعادة مانا إضافية أثناء القتال.",
+            "type": "combat",
+            "value": 3,
+            "unit": "percent"
+        },
+        {
+            "id": "berserker",
+            "name": "Berserker",
+            "nameAr": "الهائج",
+            "description": "زيادة الضرر عند انخفاض الصحة.",
+            "type": "combat",
+            "value": 15,
+            "unit": "percent"
+        },
+        {
+            "id": "damage_reflection",
+            "name": "Damage Reflection",
+            "nameAr": "انعكاس الضرر",
+            "description": "إعادة جزء من الضرر المستلم إلى الخصم.",
+            "type": "combat",
+            "value": 5,
+            "unit": "percent"
+        },
+        {
+            "id": "cooldown_reduction",
+            "name": "Cooldown Reduction",
+            "nameAr": "تقليل وقت الانتظار",
+            "description": "تقليل وقت انتظار المهارات.",
+            "type": "combat",
+            "value": 5,
+            "unit": "percent"
+        }
+    ]
+}

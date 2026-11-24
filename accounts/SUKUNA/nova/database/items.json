@@ -1,0 +1,239 @@
+{
+    "metadata": {
+        "version": 1,
+        "rarities": [
+            "Common",
+            "Uncommon",
+            "Rare",
+            "Epic",
+            "Legendary",
+            "Mythic"
+        ],
+        "types": [
+            "weapon",
+            "armor",
+            "helmet",
+            "boots",
+            "gloves",
+            "accessory",
+            "consumable",
+            "material"
+        ]
+    },
+
+    "items": {
+        "rusty_sword": {
+            "id": "rusty_sword",
+            "name": "Rusty Sword",
+            "nameAr": "سيف صدئ",
+            "type": "weapon",
+            "slot": "weapon",
+            "rarity": "Common",
+            "description": "سيف قديم يستخدمه الصيادون المبتدئون.",
+            "levelRequired": 1,
+            "allowedClasses": ["warrior", "assassin"],
+            "stats": {
+                "STR": 3
+            },
+            "stackable": false,
+            "maxStack": 1,
+            "sellable": true
+        },
+
+        "hunter_bow": {
+            "id": "hunter_bow",
+            "name": "Hunter Bow",
+            "nameAr": "قوس الصياد",
+            "type": "weapon",
+            "slot": "weapon",
+            "rarity": "Common",
+            "description": "قوس بسيط مناسب للصيادين المتخصصين في الهجمات البعيدة.",
+            "levelRequired": 1,
+            "allowedClasses": ["archer"],
+            "stats": {
+                "AGI": 4
+            },
+            "stackable": false,
+            "maxStack": 1,
+            "sellable": true
+        },
+
+        "novice_staff": {
+            "id": "novice_staff",
+            "name": "Novice Staff",
+            "nameAr": "عصا المبتدئ",
+            "type": "weapon",
+            "slot": "weapon",
+            "rarity": "Common",
+            "description": "عصا سحرية بسيطة تساعد على التحكم في المانا.",
+            "levelRequired": 1,
+            "allowedClasses": ["mage"],
+            "stats": {
+                "INT": 5
+            },
+            "stackable": false,
+            "maxStack": 1,
+            "sellable": true
+        },
+
+        "leather_armor": {
+            "id": "leather_armor",
+            "name": "Leather Armor",
+            "nameAr": "درع جلدي",
+            "type": "armor",
+            "slot": "armor",
+            "rarity": "Common",
+            "description": "درع خفيف يوفر حماية أساسية.",
+            "levelRequired": 1,
+            "allowedClasses": [],
+            "stats": {
+                "VIT": 3,
+                "AGI": 1
+            },
+            "stackable": false,
+            "maxStack": 1,
+            "sellable": true
+        },
+
+        "iron_helmet": {
+            "id": "iron_helmet",
+            "name": "Iron Helmet",
+            "nameAr": "خوذة حديدية",
+            "type": "helmet",
+            "slot": "helmet",
+            "rarity": "Common",
+            "description": "خوذة حديدية توفر حماية للرأس.",
+            "levelRequired": 1,
+            "allowedClasses": [],
+            "stats": {
+                "VIT": 2
+            },
+            "stackable": false,
+            "maxStack": 1,
+            "sellable": true
+        },
+
+        "hunter_boots": {
+            "id": "hunter_boots",
+            "name": "Hunter Boots",
+            "nameAr": "حذاء الصياد",
+            "type": "boots",
+            "slot": "boots",
+            "rarity": "Common",
+            "description": "حذاء خفيف يساعد على الحركة.",
+            "levelRequired": 1,
+            "allowedClasses": [],
+            "stats": {
+                "AGI": 2
+            },
+            "stackable": false,
+            "maxStack": 1,
+            "sellable": true
+        },
+
+        "leather_gloves": {
+            "id": "leather_gloves",
+            "name": "Leather Gloves",
+            "nameAr": "قفازات جلدية",
+            "type": "gloves",
+            "slot": "gloves",
+            "rarity": "Common",
+            "description": "قفازات بسيطة لتحسين التحكم في المعدات.",
+            "levelRequired": 1,
+            "allowedClasses": [],
+            "stats": {
+                "STR": 1,
+                "AGI": 1
+            },
+            "stackable": false,
+            "maxStack": 1,
+            "sellable": true
+        },
+
+        "lucky_ring": {
+            "id": "lucky_ring",
+            "name": "Lucky Ring",
+            "nameAr": "خاتم الحظ",
+            "type": "accessory",
+            "slot": "accessory",
+            "rarity": "Uncommon",
+            "description": "خاتم قديم يحمل طاقة غامضة.",
+            "levelRequired": 3,
+            "allowedClasses": [],
+            "stats": {
+                "LUK": 4
+            },
+            "stackable": false,
+            "maxStack": 1,
+            "sellable": true
+        },
+
+        "small_health_potion": {
+            "id": "small_health_potion",
+            "name": "Small Health Potion",
+            "nameAr": "جرعة صحة صغيرة",
+            "type": "consumable",
+            "slot": null,
+            "rarity": "Common",
+            "description": "جرعة تستعيد جزءًا من صحة الصياد.",
+            "levelRequired": 1,
+            "allowedClasses": [],
+            "effect": {
+                "type": "heal",
+                "value": 50
+            },
+            "stackable": true,
+            "maxStack": 20,
+            "sellable": true
+        },
+
+        "small_mana_potion": {
+            "id": "small_mana_potion",
+            "name": "Small Mana Potion",
+            "nameAr": "جرعة مانا صغيرة",
+            "type": "consumable",
+            "slot": null,
+            "rarity": "Common",
+            "description": "جرعة تستعيد جزءًا من المانا.",
+            "levelRequired": 1,
+            "allowedClasses": [],
+            "effect": {
+                "type": "restore_mana",
+                "value": 40
+            },
+            "stackable": true,
+            "maxStack": 20,
+            "sellable": true
+        },
+
+        "monster_fang": {
+            "id": "monster_fang",
+            "name": "Monster Fang",
+            "nameAr": "ناب وحش",
+            "type": "material",
+            "slot": null,
+            "rarity": "Common",
+            "description": "مادة يمكن استخدامها في التصنيع والتطوير.",
+            "levelRequired": 1,
+            "allowedClasses": [],
+            "stackable": true,
+            "maxStack": 99,
+            "sellable": true
+        },
+
+        "magic_crystal": {
+            "id": "magic_crystal",
+            "name": "Magic Crystal",
+            "nameAr": "بلورة سحرية",
+            "type": "material",
+            "slot": null,
+            "rarity": "Rare",
+            "description": "بلورة تحتوي على طاقة سحرية مركزة.",
+            "levelRequired": 1,
+            "allowedClasses": [],
+            "stackable": true,
+            "maxStack": 99,
+            "sellable": true
+        }
+    }
+}

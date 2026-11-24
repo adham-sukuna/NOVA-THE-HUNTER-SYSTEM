@@ -1,0 +1,81 @@
+{
+    "chests": [
+        {
+            "id": "common",
+            "name": "Common Chest",
+            "nameAr": "صندوق عادي",
+            "rarity": "Common",
+            "weight": 60,
+            "rewards": {
+                "xpMultiplier": 1.2,
+                "goldMultiplier": 1.2
+            }
+        },
+        {
+            "id": "rare",
+            "name": "Rare Chest",
+            "nameAr": "صندوق نادر",
+            "rarity": "Rare",
+            "weight": 25,
+            "rewards": {
+                "xpMultiplier": 1.5,
+                "goldMultiplier": 1.5
+            }
+        },
+        {
+            "id": "epic",
+            "name": "Epic Chest",
+            "nameAr": "صندوق ملحمي",
+            "rarity": "Epic",
+            "weight": 12,
+            "rewards": {
+                "xpMultiplier": 2,
+                "goldMultiplier": 2
+            }
+        },
+        {
+            "id": "legendary",
+            "name": "Legendary Chest",
+            "nameAr": "صندوق أسطوري",
+            "rarity": "Legendary",
+            "weight": 3,
+            "rewards": {
+                "xpMultiplier": 3,
+                "goldMultiplier": 3
+            }
+        }
+    ],
+
+    "rarityWeights": {
+        "Common": 60,
+        "Uncommon": 25,
+        "Rare": 10,
+        "Epic": 4,
+        "Legendary": 1
+    },
+
+    "bossBonus": {
+        "xpMultiplier": 1.5,
+        "goldMultiplier": 1.5,
+        "chestChanceBonus": 15
+    },
+
+    "activityRewards": {
+        "gate": {
+            "xpMultiplier": 1,
+            "goldMultiplier": 1
+        },
+        "dungeon": {
+            "xpMultiplier": 1.15,
+            "goldMultiplier": 1.1
+        },
+        "tower": {
+            "xpMultiplier": 1.25,
+            "goldMultiplier": 1.2
+        },
+        "boss": {
+            "xpMultiplier": 1.5,
+            "goldMultiplier": 1.5
+        }
+    }
+}

@@ -1,0 +1,231 @@
+{
+    "gates": [
+        {
+            "id": "unstable_gate",
+            "name": "Unstable Gate",
+            "nameAr": "البوابة غير المستقرة",
+            "description": "صدع غامض ظهرت منه مجموعة من الوحوش الضعيفة.",
+            "rank": "E",
+            "minLevel": 1,
+            "maxLevel": 10,
+            "difficulty": 0.8,
+
+            "waves": [
+                {
+                    "name": "First Wave",
+                    "nameAr": "الموجة الأولى",
+                    "count": 3,
+                    "monsterIds": [
+                        "goblin",
+                        "wolf"
+                    ]
+                },
+                {
+                    "name": "Second Wave",
+                    "nameAr": "الموجة الثانية",
+                    "count": 4,
+                    "monsterIds": [
+                        "goblin",
+                        "wolf",
+                        "skeleton"
+                    ]
+                },
+                {
+                    "name": "Final Wave",
+                    "nameAr": "الموجة الأخيرة",
+                    "count": 1,
+                    "boss": true,
+                    "bossMonsterId": "orc"
+                }
+            ],
+
+            "rewards": {
+                "xp": 250,
+                "gold": 150
+            },
+
+            "chestChance": 35
+        },
+
+        {
+            "id": "goblin_gate",
+            "name": "Goblin Gate",
+            "nameAr": "بوابة العفاريت",
+            "description": "بوابة تسكنها قبائل العفاريت ومقاتلوها.",
+            "rank": "E",
+            "minLevel": 3,
+            "maxLevel": 15,
+            "difficulty": 1,
+
+            "waves": [
+                {
+                    "name": "Goblin Scouts",
+                    "nameAr": "كشافة العفاريت",
+                    "count": 4,
+                    "monsterIds": [
+                        "goblin"
+                    ]
+                },
+                {
+                    "name": "Goblin Warriors",
+                    "nameAr": "محاربو العفاريت",
+                    "count": 5,
+                    "monsterIds": [
+                        "goblin",
+                        "orc"
+                    ]
+                },
+                {
+                    "name": "Goblin Commander",
+                    "nameAr": "قائد العفاريت",
+                    "count": 1,
+                    "boss": true,
+                    "bossMonsterId": "orc"
+                }
+            ],
+
+            "rewards": {
+                "xp": 450,
+                "gold": 300
+            },
+
+            "chestChance": 40
+        },
+
+        {
+            "id": "wolf_gate",
+            "name": "Wolf Gate",
+            "nameAr": "بوابة الذئاب",
+            "description": "منطقة خطيرة مليئة بالوحوش المفترسة.",
+            "rank": "D",
+            "minLevel": 8,
+            "maxLevel": 25,
+            "difficulty": 1.15,
+
+            "waves": [
+                {
+                    "name": "Wolf Pack",
+                    "nameAr": "قطيع الذئاب",
+                    "count": 5,
+                    "monsterIds": [
+                        "wolf"
+                    ]
+                },
+                {
+                    "name": "Shadow Beasts",
+                    "nameAr": "وحوش الظلال",
+                    "count": 4,
+                    "monsterIds": [
+                        "wolf",
+                        "shadow_beast"
+                    ]
+                },
+                {
+                    "name": "Shadow Alpha",
+                    "nameAr": "زعيم الظلال",
+                    "count": 1,
+                    "boss": true,
+                    "bossMonsterId": "shadow_beast"
+                }
+            ],
+
+            "rewards": {
+                "xp": 900,
+                "gold": 650
+            },
+
+            "chestChance": 50
+        },
+
+        {
+            "id": "skeleton_gate",
+            "name": "Skeleton Gate",
+            "nameAr": "بوابة الهياكل العظمية",
+            "description": "أطلال قديمة تسكنها جيوش الموتى.",
+            "rank": "C",
+            "minLevel": 18,
+            "maxLevel": 45,
+            "difficulty": 1.25,
+
+            "waves": [
+                {
+                    "name": "Skeleton Army",
+                    "nameAr": "جيش الهياكل",
+                    "count": 5,
+                    "monsterIds": [
+                        "skeleton"
+                    ]
+                },
+                {
+                    "name": "Ancient Guardians",
+                    "nameAr": "الحراس القدماء",
+                    "count": 6,
+                    "monsterIds": [
+                        "skeleton",
+                        "shadow_beast"
+                    ]
+                },
+                {
+                    "name": "Ancient Boss",
+                    "nameAr": "الزعيم القديم",
+                    "count": 1,
+                    "boss": true,
+                    "bossMonsterId": "ancient_dragon"
+                }
+            ],
+
+            "rewards": {
+                "xp": 2200,
+                "gold": 1600
+            },
+
+            "chestChance": 65
+        },
+
+        {
+            "id": "dragon_gate",
+            "name": "Dragon Gate",
+            "nameAr": "بوابة التنين",
+            "description": "بوابة مرعبة تقود إلى موطن الوحوش الأسطورية.",
+            "rank": "S",
+            "minLevel": 50,
+            "maxLevel": 100,
+            "difficulty": 1.5,
+
+            "waves": [
+                {
+                    "name": "Dragon Guardians",
+                    "nameAr": "حراس التنين",
+                    "count": 5,
+                    "monsterIds": [
+                        "shadow_beast",
+                        "orc"
+                    ]
+                },
+                {
+                    "name": "Dragon Army",
+                    "nameAr": "جيش التنين",
+                    "count": 6,
+                    "monsterIds": [
+                        "shadow_beast",
+                        "skeleton"
+                    ]
+                },
+                {
+                    "name": "Ancient Dragon",
+                    "nameAr": "التنين القديم",
+                    "count": 1,
+                    "boss": true,
+                    "bossMonsterId": "ancient_dragon"
+                }
+            ],
+
+            "rewards": {
+                "xp": 7500,
+                "gold": 5000
+            },
+
+            "chestChance": 85
+        }
+    ]
+}

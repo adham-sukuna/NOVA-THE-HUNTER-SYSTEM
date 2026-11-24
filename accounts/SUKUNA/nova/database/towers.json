@@ -1,0 +1,73 @@
+{
+    "towers": [
+        {
+            "id": "hunter_tower",
+            "name": "Hunter Tower",
+            "nameAr": "برج الصيادين",
+            "description": "برج غامض يتحدى الصيادين لاختبار قوتهم.",
+            "type": "normal",
+            "rank": "E",
+            "minLevel": 1,
+            "totalFloors": 100,
+            "difficulty": 1,
+            "enemyTypes": [
+                "goblin",
+                "wolf",
+                "skeleton",
+                "orc",
+                "shadow"
+            ],
+            "bossMonsterIds": [
+                "orc",
+                "shadow_beast",
+                "ancient_dragon"
+            ],
+            "rewards": {
+                "completionXP": 10000,
+                "completionGold": 7500
+            },
+            "floorRewards": {
+                "baseXP": 15,
+                "baseGold": 10
+            },
+            "chestSettings": {
+                "chance": 20,
+                "bossFloorChance": 100,
+                "specialFloorChance": 100
+            }
+        },
+        {
+            "id": "shadow_tower",
+            "name": "Shadow Tower",
+            "nameAr": "برج الظلال",
+            "description": "برج مظلم تسكنه مخلوقات الظلال.",
+            "type": "shadow",
+            "rank": "C",
+            "minLevel": 20,
+            "totalFloors": 100,
+            "difficulty": 1.25,
+            "enemyTypes": [
+                "shadow",
+                "skeleton",
+                "wolf"
+            ],
+            "bossMonsterIds": [
+                "shadow_beast",
+                "ancient_dragon"
+            ],
+            "rewards": {
+                "completionXP": 25000,
+                "completionGold": 18000
+            },
+            "floorRewards": {
+                "baseXP": 35,
+                "baseGold": 25
+            },
+            "chestSettings": {
+                "chance": 25,
+                "bossFloorChance": 100,
+                "specialFloorChance": 100
+            }
+        }
+    ]
+}

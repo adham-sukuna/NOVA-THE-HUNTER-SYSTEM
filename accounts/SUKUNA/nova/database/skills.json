@@ -1,0 +1,223 @@
+{
+  "warrior_instinct": {
+    "id": "warrior_instinct",
+    "name": "Warrior Instinct",
+    "nameAr": "غريزة المحارب",
+    "description": "موهبة قتالية تزيد من كفاءة المحارب في المواجهات المباشرة.",
+    "type": "passive",
+    "class": "warrior",
+    "rarity": "Common",
+    "unlockLevel": 1,
+    "unlockRank": "E",
+    "maxLevel": 10,
+    "effects": {
+      "physicalDamagePercent": 5,
+      "defensePercent": 3
+    }
+  },
+
+  "assassin_instinct": {
+    "id": "assassin_instinct",
+    "name": "Assassin Instinct",
+    "nameAr": "غريزة القاتل",
+    "description": "تعزز سرعة القاتل وفرص تنفيذ الضربات الحرجة.",
+    "type": "passive",
+    "class": "assassin",
+    "rarity": "Common",
+    "unlockLevel": 1,
+    "unlockRank": "E",
+    "maxLevel": 10,
+    "effects": {
+      "criticalRate": 3,
+      "speedPercent": 5
+    }
+  },
+
+  "mana_control": {
+    "id": "mana_control",
+    "name": "Mana Control",
+    "nameAr": "التحكم بالمانا",
+    "description": "يحسن التحكم بالطاقة السحرية ويزيد كفاءة استخدامها.",
+    "type": "passive",
+    "class": "mage",
+    "rarity": "Common",
+    "unlockLevel": 1,
+    "unlockRank": "E",
+    "maxLevel": 10,
+    "effects": {
+      "maxMpPercent": 5,
+      "magicDamagePercent": 3
+    }
+  },
+
+  "precision": {
+    "id": "precision",
+    "name": "Precision",
+    "nameAr": "الدقة",
+    "description": "ترفع دقة التصويب وتزيد فرص إصابة الهدف.",
+    "type": "passive",
+    "class": "archer",
+    "rarity": "Common",
+    "unlockLevel": 1,
+    "unlockRank": "E",
+    "maxLevel": 10,
+    "effects": {
+      "accuracy": 5,
+      "criticalRate": 2
+    }
+  },
+
+  "power_strike": {
+    "id": "power_strike",
+    "name": "Power Strike",
+    "nameAr": "الضربة الساحقة",
+    "description": "هجوم جسدي قوي يسبب ضررًا إضافيًا للهدف.",
+    "type": "active",
+    "class": "warrior",
+    "rarity": "Common",
+    "unlockLevel": 1,
+    "unlockRank": "E",
+    "maxLevel": 10,
+    "skillPointCost": 1,
+    "mpCost": 10,
+    "cooldown": 5,
+    "power": 150,
+    "scalingStat": "STR",
+    "scalingMultiplier": 1.5
+  },
+
+  "iron_defense": {
+    "id": "iron_defense",
+    "name": "Iron Defense",
+    "nameAr": "الدفاع الحديدي",
+    "description": "يمنح المحارب حماية مؤقتة تقلل الضرر القادم.",
+    "type": "active",
+    "class": "warrior",
+    "rarity": "Rare",
+    "unlockLevel": 5,
+    "unlockRank": "E",
+    "maxLevel": 10,
+    "skillPointCost": 2,
+    "mpCost": 20,
+    "cooldown": 30,
+    "duration": 10,
+    "effects": {
+      "damageReduction": 20
+    }
+  },
+
+  "shadow_step": {
+    "id": "shadow_step",
+    "name": "Shadow Step",
+    "nameAr": "خطوة الظل",
+    "description": "حركة سريعة تمنح القاتل فرصة لتفادي الهجمات.",
+    "type": "active",
+    "class": "assassin",
+    "rarity": "Common",
+    "unlockLevel": 1,
+    "unlockRank": "E",
+    "maxLevel": 10,
+    "skillPointCost": 1,
+    "mpCost": 12,
+    "cooldown": 8,
+    "duration": 3,
+    "effects": {
+      "evasionPercent": 25
+    }
+  },
+
+  "fatal_strike": {
+    "id": "fatal_strike",
+    "name": "Fatal Strike",
+    "nameAr": "الضربة القاتلة",
+    "description": "هجوم سريع يعتمد على الرشاقة لزيادة الضرر الحرج.",
+    "type": "active",
+    "class": "assassin",
+    "rarity": "Rare",
+    "unlockLevel": 5,
+    "unlockRank": "E",
+    "maxLevel": 10,
+    "skillPointCost": 2,
+    "mpCost": 20,
+    "cooldown": 15,
+    "power": 180,
+    "scalingStat": "AGI",
+    "scalingMultiplier": 1.8
+  },
+
+  "fireball": {
+    "id": "fireball",
+    "name": "Fireball",
+    "nameAr": "الكرة النارية",
+    "description": "يقذف الساحر كرة من الطاقة النارية نحو الهدف.",
+    "type": "active",
+    "class": "mage",
+    "rarity": "Common",
+    "unlockLevel": 1,
+    "unlockRank": "E",
+    "maxLevel": 10,
+    "skillPointCost": 1,
+    "mpCost": 15,
+    "cooldown": 5,
+    "power": 160,
+    "scalingStat": "INT",
+    "scalingMultiplier": 1.6
+  },
+
+  "mana_burst": {
+    "id": "mana_burst",
+    "name": "Mana Burst",
+    "nameAr": "انفجار المانا",
+    "description": "يطلق الساحر دفعة مركزة من الطاقة السحرية.",
+    "type": "active",
+    "class": "mage",
+    "rarity": "Rare",
+    "unlockLevel": 5,
+    "unlockRank": "E",
+    "maxLevel": 10,
+    "skillPointCost": 2,
+    "mpCost": 30,
+    "cooldown": 20,
+    "power": 220,
+    "scalingStat": "INT",
+    "scalingMultiplier": 2.2
+  },
+
+  "rapid_shot": {
+    "id": "rapid_shot",
+    "name": "Rapid Shot",
+    "nameAr": "التصويب السريع",
+    "description": "يطلق الرامي هجومًا سريعًا يعتمد على دقة التصويب.",
+    "type": "active",
+    "class": "archer",
+    "rarity": "Common",
+    "unlockLevel": 1,
+    "unlockRank": "E",
+    "maxLevel": 10,
+    "skillPointCost": 1,
+    "mpCost": 10,
+    "cooldown": 5,
+    "power": 140,
+    "scalingStat": "AGI",
+    "scalingMultiplier": 1.4
+  },
+
+  "piercing_arrow": {
+    "id": "piercing_arrow",
+    "name": "Piercing Arrow",
+    "nameAr": "السهم الخارق",
+    "description": "هجوم بعيد المدى يتميز بقوة اختراق مرتفعة.",
+    "type": "active",
+    "class": "archer",
+    "rarity": "Rare",
+    "unlockLevel": 5,
+    "unlockRank": "E",
+    "maxLevel": 10,
+    "skillPointCost": 2,
+    "mpCost": 25,
+    "cooldown": 15,
+    "power": 200,
+    "scalingStat": "AGI",
+    "scalingMultiplier": 2
+  }
+}

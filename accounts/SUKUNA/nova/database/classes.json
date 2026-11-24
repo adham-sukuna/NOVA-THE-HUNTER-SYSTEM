@@ -1,0 +1,196 @@
+{
+  "warrior": {
+    "id": "warrior",
+    "name": "Warrior",
+    "nameAr": "المقاتل",
+    "description": "مقاتل متخصص في المواجهات المباشرة، يمتلك قوة جسدية ودفاعًا مرتفعًا.",
+    "role": "Tank / Physical Damage",
+    "rarity": "Common",
+    "icon": "⚔️",
+    "baseStats": {
+      "STR": 3,
+      "AGI": 0,
+      "INT": 0,
+      "VIT": 3,
+      "LUK": 0
+    },
+    "growth": {
+      "STR": 3,
+      "AGI": 1,
+      "INT": 0,
+      "VIT": 3,
+      "LUK": 0
+    },
+    "bonuses": {
+      "hpPercent": 10,
+      "mpPercent": 0,
+      "physicalDamage": 5,
+      "magicDamage": 0,
+      "defense": 8,
+      "criticalRate": 0,
+      "criticalDamage": 0
+    },
+    "allowedWeapons": [
+      "sword",
+      "greatsword",
+      "axe",
+      "spear",
+      "shield"
+    ],
+    "specializations": [
+      "knight",
+      "berserker",
+      "paladin"
+    ],
+    "passiveSkills": [
+      "warrior_instinct"
+    ],
+    "unlockLevel": 1,
+    "unlockRank": "E"
+  },
+
+  "assassin": {
+    "id": "assassin",
+    "name": "Assassin",
+    "nameAr": "القاتل",
+    "description": "متخصص في السرعة والمراوغة والضربات الحرجة.",
+    "role": "Critical / Speed",
+    "rarity": "Common",
+    "icon": "🗡️",
+    "baseStats": {
+      "STR": 1,
+      "AGI": 4,
+      "INT": 0,
+      "VIT": 0,
+      "LUK": 2
+    },
+    "growth": {
+      "STR": 2,
+      "AGI": 4,
+      "INT": 0,
+      "VIT": 1,
+      "LUK": 2
+    },
+    "bonuses": {
+      "hpPercent": 0,
+      "mpPercent": 0,
+      "physicalDamage": 4,
+      "magicDamage": 0,
+      "defense": 0,
+      "criticalRate": 8,
+      "criticalDamage": 15
+    },
+    "allowedWeapons": [
+      "dagger",
+      "dual_daggers",
+      "short_sword"
+    ],
+    "specializations": [
+      "shadow_assassin",
+      "phantom",
+      "executioner"
+    ],
+    "passiveSkills": [
+      "assassin_instinct"
+    ],
+    "unlockLevel": 1,
+    "unlockRank": "E"
+  },
+
+  "mage": {
+    "id": "mage",
+    "name": "Mage",
+    "nameAr": "الساحر",
+    "description": "مستخدم للمانا والسحر، يمتلك قدرات هجومية بعيدة المدى.",
+    "role": "Magic Damage",
+    "rarity": "Common",
+    "icon": "🔮",
+    "baseStats": {
+      "STR": 0,
+      "AGI": 0,
+      "INT": 5,
+      "VIT": 0,
+      "LUK": 1
+    },
+    "growth": {
+      "STR": 0,
+      "AGI": 1,
+      "INT": 5,
+      "VIT": 1,
+      "LUK": 1
+    },
+    "bonuses": {
+      "hpPercent": 0,
+      "mpPercent": 20,
+      "physicalDamage": 0,
+      "magicDamage": 10,
+      "defense": 0,
+      "criticalRate": 2,
+      "criticalDamage": 5
+    },
+    "allowedWeapons": [
+      "staff",
+      "wand",
+      "orb",
+      "tome"
+    ],
+    "specializations": [
+      "elementalist",
+      "archmage",
+      "necromancer"
+    ],
+    "passiveSkills": [
+      "mana_control"
+    ],
+    "unlockLevel": 1,
+    "unlockRank": "E"
+  },
+
+  "archer": {
+    "id": "archer",
+    "name": "Archer",
+    "nameAr": "الرامي",
+    "description": "متخصص في الهجمات بعيدة المدى والدقة والسرعة.",
+    "role": "Ranged Damage",
+    "rarity": "Common",
+    "icon": "🏹",
+    "baseStats": {
+      "STR": 1,
+      "AGI": 4,
+      "INT": 0,
+      "VIT": 1,
+      "LUK": 2
+    },
+    "growth": {
+      "STR": 1,
+      "AGI": 4,
+      "INT": 0,
+      "VIT": 1,
+      "LUK": 2
+    },
+    "bonuses": {
+      "hpPercent": 0,
+      "mpPercent": 0,
+      "physicalDamage": 5,
+      "magicDamage": 0,
+      "defense": 0,
+      "criticalRate": 5,
+      "criticalDamage": 10
+    },
+    "allowedWeapons": [
+      "bow",
+      "crossbow",
+      "longbow"
+    ],
+    "specializations": [
+      "sniper",
+      "ranger",
+      "beast_master"
+    ],
+    "passiveSkills": [
+      "precision"
+    ],
+    "unlockLevel": 1,
+    "unlockRank": "E"
+  }
+}

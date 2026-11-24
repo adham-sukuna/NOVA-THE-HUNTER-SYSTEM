@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "name": "NOVA Guild System",
+    "version": 1
+  },
+  "settings": {
+    "enabled": true,
+    "creationCost": 5000,
+    "minimumLevel": 10,
+    "maximumMembers": 20,
+    "maximumOfficers": 5,
+    "minimumNameLength": 3,
+    "maximumNameLength": 20,
+    "invitationDuration": 86400000
+  },
+  "experience": {
+    "levelBase": 1000,
+    "levelGrowth": 1.5,
+    "creationExperience": 0
+  },
+  "ranks": {
+    "master": {
+      "name": "Guild Master",
+      "nameAr": "قائد النقابة",
+      "priority": 5,
+      "permissions": [
+        "invite",
+        "kick",
+        "manage_ranks",
+        "transfer_leadership",
+        "disband",
+        "manage_description"
+      ]
+    },
+    "vice": {
+      "name": "Vice Master",
+      "nameAr": "نائب القائد",
+      "priority": 4,
+      "permissions": [
+        "invite",
+        "kick",
+        "manage_description"
+      ]
+    },
+    "officer": {
+      "name": "Officer",
+      "nameAr": "مسؤول",
+      "priority": 3,
+      "permissions": [
+        "invite"
+      ]
+    },
+    "elite": {
+      "name": "Elite Member",
+      "nameAr": "عضو نخبة",
+      "priority": 2,
+      "permissions": []
+    },
+    "member": {
+      "name": "Member",
+      "nameAr": "عضو",
+      "priority": 1,
+      "permissions": []
+    }
+  }
+}

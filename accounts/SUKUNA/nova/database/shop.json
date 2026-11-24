@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "name": "NOVA Hunter Shop",
+    "version": 1,
+    "currency": "gold"
+  },
+  "items": {
+    "rusty_sword": {
+      "buyPrice": 150,
+      "sellPrice": 60,
+      "enabled": true
+    },
+    "hunter_bow": {
+      "buyPrice": 250,
+      "sellPrice": 100,
+      "enabled": true
+    },
+    "novice_staff": {
+      "buyPrice": 250,
+      "sellPrice": 100,
+      "enabled": true
+    },
+    "leather_armor": {
+      "buyPrice": 200,
+      "sellPrice": 80,
+      "enabled": true
+    },
+    "iron_helmet": {
+      "buyPrice": 120,
+      "sellPrice": 45,
+      "enabled": true
+    },
+    "hunter_boots": {
+      "buyPrice": 130,
+      "sellPrice": 50,
+      "enabled": true
+    },
+    "leather_gloves": {
+      "buyPrice": 100,
+      "sellPrice": 40,
+      "enabled": true
+    },
+    "lucky_ring": {
+      "buyPrice": 500,
+      "sellPrice": 200,
+      "enabled": true
+    },
+    "small_health_potion": {
+      "buyPrice": 50,
+      "sellPrice": 15,
+      "enabled": true
+    },
+    "small_mana_potion": {
+      "buyPrice": 50,
+      "sellPrice": 15,
+      "enabled": true
+    },
+    "monster_fang": {
+      "buyPrice": 30,
+      "sellPrice": 10,
+      "enabled": true
+    },
+    "magic_crystal": {
+      "buyPrice": 100,
+      "sellPrice": 35,
+      "enabled": true
+    }
+  }
+}
